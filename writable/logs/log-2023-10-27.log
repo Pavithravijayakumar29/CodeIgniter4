@@ -1,0 +1,2008 @@
+CRITICAL - 2023-10-27 08:10:02 --> Class "LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:11:36 --> Class "App\Models\LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:12:35 --> Class "App\Models\LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:15:32 --> Class "app\Models\LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:17:00 --> Class "App\Models\LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 08:58:00 --> Class "App\Models\LearningModel" not found
+in APPPATH\Controllers\LearningController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 08:58:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 08:58:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:01:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:01:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:01:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:01:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:02:09 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:02:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:02:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:02:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:03:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:03:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:03:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:03:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:03:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:03:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:04:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:04:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:06:21 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:06:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:08:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:08:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:11:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:11:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:15:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:15:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:16:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:16:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:17:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:17:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:17:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:17:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:17:19 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:17:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:17:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:17:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:20:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:20:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:22:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:22:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:23:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:23:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:22 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:24:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci4', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:24:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:25:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:25:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:25:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:25:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:29:49 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:29:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:29:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:29:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:29:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:29:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:32:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:32:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:34:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:34:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:34:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:34:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:35:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:35:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:35:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:35:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:35:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:35:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:36:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'test'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'test', Object(SensitiveParameterValue), 'ci_learning', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:36:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:38:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:38:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:40:52 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'F:\\xampp_larave...', 184)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('http://localhos...', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#6 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#7 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#8 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#11 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('http://localhos...', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for http failed: No such host is known.  in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:40:52 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for http failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:41:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:41:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:42:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:42:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-27 09:43:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-27 09:43:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(11): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 09:44:58 --> Array to string conversion
+in APPPATH\Controllers\LearningController.php on line 13.
+ 1 APPPATH\Controllers\LearningController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'F:\\xampp_laravel\\htdocs\\code4\\app\\Controllers\\LearningController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 11:22:01 --> Too few arguments to function App\Controllers\LearningController::update(), 0 passed in F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\LearningController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-27 11:22:47 --> Too few arguments to function App\Controllers\LearningController::update(), 0 passed in F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\LearningController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
