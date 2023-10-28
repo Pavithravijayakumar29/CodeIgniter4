@@ -20,7 +20,7 @@ class LearningController extends BaseController
        ]; 
        $model = model(LearningModel::class);
        $learn=$model->createlearn($data);
-        echo $learn;
+        // echo $learn;
 
         if ($learn){
             return redirect('/');

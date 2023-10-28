@@ -1,0 +1,45 @@
+ERROR - 2023-10-28 03:08:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'ci_learning', 4306, '', 0)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#10 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in F:\xampp_laravel\htdocs\code4\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 F:\xampp_laravel\htdocs\code4\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 F:\xampp_laravel\htdocs\code4\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 F:\xampp_laravel\htdocs\code4\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 F:\xampp_laravel\htdocs\code4\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 F:\xampp_laravel\htdocs\code4\app\Models\LearningModel.php(16): CodeIgniter\BaseModel->findAll()
+#6 F:\xampp_laravel\htdocs\code4\app\Controllers\LearningController.php(12): LearningModel->getlearn()
+#7 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(942): App\Controllers\LearningController->index()
+#8 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+#9 F:\xampp_laravel\htdocs\code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 F:\xampp_laravel\htdocs\code4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-28 03:08:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `learning`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\LearningModel.php(16): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\LearningController.php(12): LearningModel->getlearn()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LearningController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LearningController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -107,7 +107,7 @@
 
                                        <div class="row">
                                           <div class="input-field col s12">
-                                             <textarea id="textarea2" class="materialize-textarea" data-length="120" name="description" readonly><?php echo $learnings['description']; ?></textarea>
+                                             <textarea id="textarea2" class="materialize-textarea" data-length="120" name="description"><?php echo $learnings['description']; ?></textarea>
                                              <label for="textarea2">Description</label>
                                           </div>
                                        </div>
